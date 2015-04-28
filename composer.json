@@ -1,0 +1,35 @@
+{
+	"name":"cliffparnitzky/tiny-mce-bundle-text-color",
+	"description":"Installs the TinyMCE plugin loader, the text color plugin and needed additional plugins.",
+	"keywords":["contao","tinymce","tiny editor","tinymce plugin","text color","tinymce4"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/TinyMceBundleTextColor/issues",
+		"source":"https://github.com/cliffparnitzky/TinyMceBundleTextColor"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.3.0,<3.5",
+		"contao-community-alliance/composer-installer":"*",
+		"cliffparnitzky/tiny-mce-plugin-loader":">=2.1.1",
+		"cliffparnitzky/tiny-mce-colorpicker":">=1.0.0",
+		"cliffparnitzky/tiny-mce-text-color":">=1.0.0",
+	},
+	"conflict": {
+		"contao/core":"3.4.0,3.4.1,3.4.2"
+	},
+	"extra":{
+		"branch-alias": {
+			"dev-tinymce4": "1.0.x-dev"
+		}
+	}
+}
