@@ -1,7 +1,7 @@
 {
 	"name":"cliffparnitzky/tiny-mce-bundle-text-color",
 	"description":"Installs the TinyMCE plugin loader, the text color plugin and needed additional plugins.",
-	"keywords":["contao","tinymce","tiny editor","tinymce plugin","text color","tinymce4", "metapackage"],
+	"keywords":["contao", "tinymce", "tiny editor", "tinymce bundle", "tinymce textcolor", "tinymce4", "bundle", "metapackage"],
 	"type":"metapackage",
 	"license":"LGPL-3.0+",
 	"authors":[
